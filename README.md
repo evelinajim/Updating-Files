@@ -1,6 +1,7 @@
 # Updating-Files
 This py is an updating tool for specific Pubtator files: disease2pubtator.gz, gene2pubtator.gz, mutation2pubtator.gz, chemical2pubtator.gz. This program allows the user to put in a date, in the format of: Month Date Year (i.e. 12 8 1990), and a path for where the user wants the files downloaded (i.e. \Users\username\Downloads\ ) and it will compare the file with the date specified to the last modified date in pubtator and see if it needs to be updated. If there are spaces in the path make sure the name is wrapped in quotes (\Users\username\Pictures\ "test file"\ )
 
+
 I've used two different techniques in each connect.py and connect2.py to take into account new tools.
 * Connect2.py utilizes the .download tool in ftputil 
 * Connect.py uses the .download_if_newer. 
