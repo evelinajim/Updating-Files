@@ -11,4 +11,5 @@ This py uses the method download_if_newer to compare the downloaded files on the
 ## Connect2.py
 This py used the method download. This compares the date the user inputted with the last modified date. If it hasn't been modified it will begin downloading the files into the path the user indicated. To make this work the user must input a date 01/1/0000 and a path to store the files in. This does not check if the file you have currently installed on your computer is up to date.
 Results may look like this:
+
 ![example](example.PNG)
