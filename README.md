@@ -8,7 +8,7 @@ I've used two different techniques in each connect.py and connect2.py to take in
 ## Connect.py
 This py uses the method download_if_newer to compare the downloaded files on the users computer's last_modifed_date with the last_modified_date in pubtator. If it does not exist it will download the file, however, if it does exist it will compare the dates and if the pubtator's date is greater, it will update the file. Since this py is more of a comparison between the files you have now and the files in pubtator, it does not need a date. The only argument it needs is the path where the user's current pubtator files are or where they wish it would be. 
 
-Results may look like this:
+This is what the results of a folder that has the latest chemical2pubtator.gz file but not the other files looks like:
 
 ![fixed](fixed.PNG)
 
